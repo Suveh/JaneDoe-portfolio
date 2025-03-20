@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Jane Doe</h1>
+            <p><i class="fas fa-envelope"></i> Jane@jermail.com</p>
+            <p><i class="fas fa-phone"></i> +13/65764598</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="home-icon">
+        <a href="#"><i class="fas fa-home"></i></a>
+    </div>
+
+    <section id="about">
+        <h2>Hi, I'm Jane Doe!</h2>
+        <img src="OIP.jpeg" alt="Profile Image" class="profile-pic">
+        <p>
+            I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud. I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill"><img src="html.png" alt="HTML Logo">HTML <span>2 years experience</span></div>
+            <div class="skill"><img src="nodejs.jpeg" alt="CSS Logo">Node.js <span>1 year experience</span></div>
+            <div class="skill"><img src="js.jpeg" alt="CSS Logo">JavaScript <span>1.5 years experience</span></div>
+            <div class="skill"><img src="css.jpeg" alt="CSS Logo">CSS <span>5 years experience</span></div>
+           
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Chatbot</h3>
+            <p>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant.</p>
+        </div>
+        <div class="project">
+            <h3>Sentiment Analyzer</h3>
+            <p>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU.</p>
+        </div>
+        <div class="project">
+            <h3>Fashion Website</h3>
+            <p>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using Stripe for payment gateway.</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div id="rec-list">
+            <div class="recommendation">
+                <p>"Jane is a very quick learner and quickly grasps key concepts of Web development. She has a great attitude and is an excellent team player. She has a curious mind and asks the right questions. She takes initiative within a team and has the potential to lead the team."</p>
+            </div>
+            <div class="recommendation">
+                <p>"Working with Jane has been an awesome experience. She is highly knowledgeable and always goes the extra step to make sure everything is right. For any future projects that need her expertise, I would definitely want to work with her again."</p>
+            </div>
+            <div class="recommendation">
+                <p>"I had worked along with Jane during the initial phase of our venture which needed Web development. She is a committed resource who has in-depth knowledge about the domain. She will be an asset for any organization."</p>
+            </div>
+        </div>
+        <form id="recommendation-form">
+            <textarea id="new-recommendation" placeholder="Leave a recommendation..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>
